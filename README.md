@@ -15,6 +15,12 @@ This is a short introduction and quickstart for the `selee` package.
 
 `fizz_buzz` application start with installing selee package 
 
+`from selee import selee_module`
+
+User can check the result of the `fizz_buzz` function putting the input x inside the parentheses.
+
+`selee_module.fizzbuzz(x)`
+
 ## Examples
 ```
 from selee import selee_module
@@ -30,5 +36,7 @@ selee_module.fizzbuzz(5)
 ```
 
 # Test
-Seven test cases to check the function is 
+Seven test cases are presented in the `unit_test.py`.
+Below is the code for running those test cases.
+
 ` python -m unittest tests/unit_test.py `
