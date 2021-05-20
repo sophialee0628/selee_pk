@@ -1,23 +1,23 @@
 # selee Package
 
-**selee** is a python package that contains function `fizz_buzz()` in selee_module.
+**selee** is a python package that contains the function `fizz_buzz()` in selee_module.
 
-The `fizz_buzz()` function gets the input from a user and returns the output as string or the same type of the input as below logic:
+The `fizz_buzz()` function accepts a single argument, x and returns the output as string or the same type of the input x, using the below logic:
 
-- The multiples of 3 returns “Fizz” instead of the number
-- The multiples of 5 return “Buzz”. 
-- For positive integers which are multiples of both 3 and 5 return “FizzBuzz”
+- Multiples of 3 returns “Fizz” instead of the number
+- Multiples of 5 return “Buzz”. 
+- For integers which are multiples of both 3 and 5 return “FizzBuzz”
 - Any other cases return the input
 
 # Quick Start
 
 This is a short introduction and quickstart for the `selee` package.
 
-`fizz_buzz` application start with installing selee package 
+`fizz_buzz` application starts by installing selee package 
 
 `from selee import selee_module`
 
-User can check the result of the `fizz_buzz` function putting the input x inside the parentheses.
+Users can check the result of the `fizz_buzz` function by putting the input x inside the parentheses.
 
 `selee_module.fizzbuzz(x)`
 
@@ -36,7 +36,7 @@ selee_module.fizzbuzz(5)
 ```
 
 # Test
-Seven test cases are presented in the `unit_test.py`.
+Seven test cases are included in the `unit_test.py`.
 Below is the code for running those test cases.
 
 ` python -m unittest tests/unit_test.py `
