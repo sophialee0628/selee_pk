@@ -12,6 +12,7 @@ The `fizz_buzz()` function accepts a single argument, x and returns the output a
 # Installation
 
 Python>=3.6 is needed.
+
 `pip install selee_pk`
 
 # Quick Start
