@@ -1,6 +1,6 @@
-# selee Package
+# selee_pk Package
 
-**selee** is a python package that contains the function `fizz_buzz()` in selee_module.
+**selee_pk** is a python package that contains the function `fizz_buzz()` in selee_module.
 
 The `fizz_buzz()` function accepts a single argument, x and returns the output as string or the same type of the input x, using the below logic:
 
@@ -9,13 +9,18 @@ The `fizz_buzz()` function accepts a single argument, x and returns the output a
 - For integers which are multiples of both 3 and 5 return “FizzBuzz”
 - Any other cases return the input
 
+# Installation
+
+Python>=3.6 is needed.
+`pip install selee_pk`
+
 # Quick Start
 
-This is a short introduction and quickstart for the `selee` package.
+This is a short introduction and quickstart for the `selee_pk` package.
 
 `fizz_buzz` application starts by installing selee package 
 
-`from selee import selee_module`
+`from selee_pk import selee_module`
 
 Users can check the result of the `fizz_buzz` function by putting the input x inside the parentheses.
 
@@ -23,7 +28,7 @@ Users can check the result of the `fizz_buzz` function by putting the input x in
 
 ## Examples
 ```
-from selee import selee_module
+from selee_pk import selee_module
 
 selee_module.fizzbuzz(2)
  >> 2
